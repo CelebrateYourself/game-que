@@ -1,0 +1,68 @@
+            * {
+              font-family: inherit;
+              font-size: inherit;
+              color: inherit;
+              font-weight: inherit;
+              border: none;
+              text-decoration: none;
+              outline: none;
+              list-style-type: none;
+              margin: 0px;
+              padding: 0px;
+            }
+            
+            body {
+              font-family: 'Courier New', monospace;
+              font-size: 16px;
+              color: #ccc;
+              font-weight: bold;
+              background-color: #000;
+              background: url('../img/bg.jpg') fixed center no-repeat;
+              background-size: cover;
+            }
+            
+            .main {
+              position: absolute;
+              top: 0px;
+              bottom: 0px;
+              right: 0px;
+              left: 0px;
+              background: rgba(0,0,0,.6);
+            }
+            
+            .display {
+              display: block;
+              width: 640px;
+              height: 480px;
+              position: relative;
+              background: #000;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              box-shadow: 0px 0px 3px #666;
+              border-radius: 1px;
+              padding: 20px 25px;
+              box-sizing: border-box;
+              overflow-x: hidden;
+              overflow-y: hidden;
+            }
+            
+            .content {
+               height: 88%;
+               white-space: pre-line;
+               position: relative;
+               overflow: hidden;
+            }
+            
+            .input-field {
+              margin-top: 10px;
+              border-top: 1px solid #111;
+            }
+            
+            .input-field input {
+              margin-top: 15px;
+              padding: 2px;
+              background: inherit;
+              color: inherit;
+              width: 90%;
+            }
